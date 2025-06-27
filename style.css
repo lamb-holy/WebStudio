@@ -1,3 +1,16 @@
+body {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+
+}
+
+ul li {
+    list-style: none;
+}
+
 h1 {
     font-weight: 900;
     font-size: 44px;
