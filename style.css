@@ -1,43 +1,5 @@
-body {
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 2%;
-
-}
-
-ul li {
-    list-style: none;
-}
-
-h1 {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    letter-spacing: 6%;
-    text-align: center;
-}
-
-.main-title button {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 6%;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.advantages strong {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 3%;
-}
-
-.advantages p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 3%;
-}
+@import url("./css/reset.css");
+@import url("./css/header.css");
+@import url("./css/main.css");
+@import url("./css/footer.css");
+@import url("./css/variables.css");
