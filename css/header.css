@@ -1,0 +1,37 @@
+.header_container {
+    align-items: baseline;
+}
+
+.header_container-list {
+    display: flex;
+    gap: 60px;
+    justify-content: flex-start;
+    font-family: "Roboto";
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: flex-start;
+    font-family: "Roboto";
+}
+
+.header_list-item {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+}
+
+.contacts {
+    display: flex;
+    gap: 70px;
+    justify-content: flex-end;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+}

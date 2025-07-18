@@ -11,89 +11,100 @@
 </head>
 <body> 
     <header>
-        <nav>
-            <img src="./Images1/WebStudio.webp" alt="logo">
-            <ul>
-                <li><a href="#">Студія</a></li>
-                <li><a href="#">Портфоліо</a></li>
-                <li><a href="#">Контакти</a></li>
-            </ul>
-            <p>info@devstudio.com</p>
-            <p>+38 096 111 11 11</p>
-            <img src="./Images1/pointers.webp" alt="pointers">
-        </nav>
+        <div class="header_container">
+            <nav>
+                <div class="header_container-list">
+                    <img class="logo" src="./images1/WebStudio.webp" alt="logo">
+                    <ul class="header_list">
+                        <li><a class="header_list-item" href="#">Студія</a></li>
+                        <li><a class="header_list-item" href="#">Портфоліо</a></li>
+                        <li><a class="header_list-item" href="#">Контакти</a></li>
+                    </ul>
+                </div>                
+                <div class="contacts">
+                    <p>info@devstudio.com</p>
+                    <p>+38 096 111 11 11</p>
+                </div>                
+            </nav>
+            <!-- <img src="./images1/pointers.webp" alt="pointers"> -->
+        </div>        
     </header>
     <main>
-    <!-- Main title -->
-    <section class="main-title">
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
-    </section>
-    <!-- Advantages -->
-    <section class="advantages">
-        <ul>
-            <li>
-                <strong>УВАГА ДО ДЕТАЛЕЙ</strong>
-                <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-            </li>
-            <li>
-                <strong>ПУНКТУАЛЬНІСТЬ</strong>
-                <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-            </li>
-            <li>
-                <strong>ПЛАНУВАННЯ</strong>
-                <p>Так само консультація з широким активом значною мірою зумовлює.</p>
-            </li>
-            <li>
-                <strong>СУЧАСНІ ТЕХНОЛОГІЇ</strong>
-                <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-            </li>
-        </ul>
-    </section>
-    <!-- Our appointment -->
-    <section class="appointment">
-        <h2>Чим ми займаємося</h2>
-        <ul>
-            <li>
-                <img src="./Images1/coding.webp" alt="coding">
-            </li>
-            <li>
-                <img src="./Images1/design.webp" alt="stylish">
-            </li>
-            <li>
-                <img src="./Images1/coloring.webp" alt="coloring">
-            </li>
-        </ul>
-    </section>
-    <!-- Our team -->
-    <section class="team">
-        <h2>Наша команда</h2>
-        <ul>
-            <li>
-                <img src="./Images1/glasses.webp" alt="man">
-                <h3>Ігор Дем'яненко</h3>
-                <p>Product Designer</p>
-            </li>
-            <li>
-                <img src="./Images1/woman.webp" alt="woman">
-                <h3>Ольга Рєпіна</h3>
-                <p>Frontend Developer</p>
-            </li>
-            <li>
-                <img src="./Images1/man.webp" alt="man">
-                <h3>Микола Тарасов</h3>
-                <p>Marketing</p>
-            </li>
-            <li>
-                <img src="./Images1/glassestwo.webp" alt="man">
-                <h3>Михайло Єрмаков</h3>
-                <p>UI Designer</p>
-            </li>
-        </ul>
-    </section>
+        <div class="main_container">
+            <!-- Main title -->
+            <section class="main-title">
+                <h1>Ефективні рішення для вашого бізнесу</h1>
+                <button class="main_button" type="button">Замовити послугу</button>
+            </section>
+            <!-- Advantages -->
+            <section class="advantages">
+                <div class="advantage_boxes">
+                    <ul>
+                    <li>
+                        <strong>УВАГА ДО ДЕТАЛЕЙ</strong>
+                        <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    </li>
+                    <li>
+                        <strong>ПУНКТУАЛЬНІСТЬ</strong>
+                        <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    </li>
+                    <li>
+                        <strong>ПЛАНУВАННЯ</strong>
+                        <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                    </li>
+                    <li>
+                        <strong>СУЧАСНІ ТЕХНОЛОГІЇ</strong>
+                        <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    </li>
+                </ul>
+                </div>
+                
+            </section>
+            <!-- Our appointment -->
+            <section class="appointment">
+                <h2>Чим ми займаємося</h2>
+                <ul>
+                    <li>
+                        <img src="./images1/coding.webp" alt="coding">
+                    </li>
+                    <li>
+                        <img src="./images1/design.webp" alt="stylish">
+                    </li>
+                    <li>
+                        <img src="./images1/coloring.webp" alt="coloring">
+                    </li>
+                </ul>
+            </section>
+            <!-- Our team -->
+            <section class="team">
+                <h2>Наша команда</h2>
+                <ul>
+                    <li>
+                        <img src="./images1/glasses.webp" alt="man">
+                        <h3>Ігор Дем'яненко</h3>
+                        <p>Product Designer</p>
+                    </li>
+                    <li>
+                        <img src="./images1/woman.webp" alt="woman">
+                        <h3>Ольга Рєпіна</h3>
+                        <p>Frontend Developer</p>
+                    </li>
+                    <li>
+                        <img src="./images1/man.webp" alt="man">
+                        <h3>Микола Тарасов</h3>
+                        <p>Marketing</p>
+                    </li>
+                    <li>
+                        <img src="./images1/glassestwo.webp" alt="man">
+                        <h3>Михайло Єрмаков</h3>
+                        <p>UI Designer</p>
+                    </li>
+                </ul>
+            </section>
+        </div>    
     </main>
     <footer>
-        <img src="./Images1/WebStudio.webp" alt="logo">
+        <img src="./images1/WebStudio.webp" alt="logo">
         <p>м. Київ, пр-т Лесі Українки, 26</p>
         <p>info@devstudio.com</p>
         <p>+38 096 111 11 11</p>
